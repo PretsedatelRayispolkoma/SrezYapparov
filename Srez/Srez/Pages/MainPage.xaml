@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Srez.MainPage">
+
+    <StackLayout>
+        <Label Text="Login"/>
+        <Entry x:Name="LoginEntry"/>
+        <Label Text="Password"/>
+        <Entry x:Name="PasswordEntry" IsPassword="True"/>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="SignInBtn" Text="Sign in" Clicked="SignInBtn_Clicked"/>
+            <Button x:Name="SignUpBtn" Text="Sign up" Clicked="SignUpBtn_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

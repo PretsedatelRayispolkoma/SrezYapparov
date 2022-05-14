@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Srez.Pages.RegistrationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="New login"/>
+            <Entry x:Name="newLogEntry"/>
+            <Label Text="New password"/>
+            <Entry x:Name="NewPasswordEntry" IsPassword="True"/>
+            <Label Text="Repeat new password"/>
+            <Entry x:Name="RepPasswordEntry" IsPassword="True"/>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="OkBtn" Text="Ok" Clicked="OkBtn_Clicked"/>
+                <Button x:Name="GoBackBtn" Text="Back" Clicked="GoBackBtn_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
